@@ -1,0 +1,50 @@
+programa meuPrograma
+
+	declare a,b,c,d: number;
+	declare m: realnumber;
+	declare x: text;
+	
+	inicio
+	
+	leia(a);
+	leia(m);
+	leia(x);
+	
+	d := 0;
+	
+	escreva("Hello World");
+	escreva(d);
+	
+	a := 5 + 5 * 8 + 4 / 4;
+	a := 2 / 2 + 4;
+	
+	se (a < 5) entao
+		escreva(a);
+		escreva(m);
+		escreva(x);
+	senao
+		escreva("nao a");
+		escreva(d);
+	fimse
+	
+	b := 5;
+	c := 3;
+	
+	m := 5.555;
+	
+	x := "texto";
+	
+	enquanto (b < 6) faca
+	b := b + 1;
+	fimenquanto
+	
+	a := 1;
+	
+	faca
+	escreva(c);
+	c := c + a;
+	enquanto (c <= 7)
+	
+	fim
+	
+fimprog
